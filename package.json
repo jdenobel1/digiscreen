@@ -1,0 +1,58 @@
+{
+  "name": "digiscreen",
+  "version": "1.0.7",
+  "homepage": "https://ladigitale.dev/digiscreen/",
+  "repository": {
+    "type": "git",
+    "url": "https://codeberg.org/ladigitale/digiscreen.git"
+  },
+  "author": {
+    "name": "Emmanuel ZIMMERT",
+    "email": "ez@ladigitale.dev",
+    "url": "https://ladigitale.dev"
+  },
+  "license": "GNU AGPLv3",
+  "scripts": {
+    "dev": "vite",
+    "build:dist": "vite build --mode dist",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@panzoom/panzoom": "^4.5.1",
+    "dayjs": "^1.11.10",
+    "destyle.css": "^2.0.0",
+    "file-saver": "^2.0.5",
+    "fontfaceobserver": "^2.3.0",
+    "fscreen": "^1.2.0",
+    "html2canvas": "^1.4.1",
+    "imagesloaded": "^5.0.0",
+    "interactjs": "^1.10.18",
+    "jspanel4": "^4.16.1",
+    "konva": "^9.2.1",
+    "linkify-html": "^4.1.3",
+    "linkifyjs": "^4.1.3",
+    "pell": "^1.0.6",
+    "sortablejs": "^1.15.0",
+    "tabulator-tables": "^5.5.2",
+    "vanilla-calendar-pro": "^2.9.6",
+    "voca": "^1.4.1",
+    "vue": "3.5.10",
+    "vue-draggable-next": "^2.2.1",
+    "vue-i18n": "^10.0.6",
+    "vue-konva": "^3.0.2",
+    "vuewordcloud": "^19.0.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.10.5",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "eslint": "^9.22.0",
+    "eslint-plugin-vue": "^10.0.0",
+    "prettier": "^3.5.3",
+    "video.js": "^8.17.3",
+    "vite": "^6.2.1",
+    "vite-plugin-static-copy": "^2.3.0"
+  }
+}
